@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:cursive;
+}
+
+.home-page {
+  background: url("https://static.vecteezy.com/system/resources/previews/004/532/221/original/tic-tac-toe-seamless-background-on-dark-blue-illustration-vector.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  
+}
+
+.logo {
+   padding: 2px;
+   height: 50%;
+   width: 25%;
+   background-color: rgb(191 204 255);
+   text-align: center;
+   position: absolute;
+   top: 10%;
+   left: 35%;
+   border-radius: 10px;
+   box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.5);  
+   opacity: 0.9;
+}
+.form-title{
+   margin: 8px;
+   color: rgb(141 2 5);
+   font-size: x-large;
+}
+
+.form img{
+   margin-top: 30px;
+   width: 50%;
+}
+
+.form-buttons{
+   display: flex;
+   flex-direction: column;
+   padding: 2rem;
+   gap: 20px;
+   align-items: center;
+
+}
+
+.play-button {
+   font-size: large;
+   border-radius: 10px;
+   background-color: burlywood;
+   height: 4rem;
+   width: 30%;
+   cursor: pointer;
+}
+
+.play-button:hover{
+   color: burlywood;
+   background-color: black;
+ 
+   
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px)   {
+   .logo{
+      height: 87%;
+      width: 60%;
+      text-align: center;
+      position: absolute;
+      left: 15%;
+      top: 3%;
+      padding: 20px;
+   }
+   .form-buttons{
+      width: 60%;
+
+   }
+   .play-button{
+      width: 100%;
+
+
+   }
+ }
+
+ @media screen and (min-width: 769px) and   (max-width: 1884px)  {
+   .logo{
+      height: 87%;
+      width: 60%;
+      text-align: center;
+      position: absolute;
+      left: 15%;
+      top: 3%;
+      padding: 20px;
+   }
+   
+ }

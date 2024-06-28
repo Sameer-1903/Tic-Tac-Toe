@@ -1,0 +1,112 @@
+.main-page-computer{
+    background-image: url("https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F999D823E5B1AE0942B");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: rgba(219, 135, 0, 0.73);
+
+}
+
+.heading-computer{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    color: #171c5a;
+    background-color: #ffc07f;
+    border-radius: 50px;
+}
+
+
+.results-viewboard-computer{
+    text-align: center;
+    color: #171c5a;
+}
+
+.buttons-computer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the home button */
+  .home-button-computer,
+  .start-new-game-computer {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #171c5a;
+    background-color: #ffc07f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-button-computer:hover,
+  .start-new-game-computer:hover {
+    background-color: #171c5a;
+    color: #ffc07f;
+  }
+  
+  .home-button-computer svg {
+    margin-right: 5px;
+  }
+
+  .computer-background-white {
+    background-color: rgb(252 251 248 / 62%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+  }
+
+  @media screen and (min-width: 375px) and (max-width: 768px) {
+    .main-page-computer {
+      background-image: url("https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F999D823E5B1AE0942B");
+      background-size: contain;
+      margin-top: 50%;
+    }
+    .heading-computer {
+      font-size: medium;
+    }
+  
+    .home-button-computer {
+      height: 4rem;
+      width: 8rem;
+      display: block;
+      margin: auto;
+    }
+    .results {
+      font-size: medium;
+    }
+    .start-new-game-computer {
+      height: 4rem;
+      width: 8rem;
+  
+    }
+    .computer-background-white{
+      padding: 50px;
+      left: 10%;
+      width: 200px;
+    }
+
+
+
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    .computer-background-white{
+      padding: 50px;
+      left: 30%;
+      width: 200px;
+    }
+  }
